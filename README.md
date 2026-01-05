@@ -26,7 +26,8 @@ Unlike traditional tabular methods, this project utilizes a **Deep Neural Networ
 The Brain of the agent is a Neural Network that takes **4 input parameters** and outputs Q-values for the 4 possible actions.
 
 * **Input Layer (4 Neurons):** `[Agent_Row, Agent_Col, Target_Row, Target_Col]` (Normalized)
-* **Hidden Layers:** * Linear (128 neurons) + ReLU
+* **Hidden Layers:**
+    * Linear (128 neurons) + ReLU
     * Linear (128 neurons) + ReLU
     * Linear (64 neurons) + ReLU
 * **Output Layer (4 Neurons):** Q-Values for `[UP, RIGHT, DOWN, LEFT]`
@@ -35,6 +36,6 @@ The Brain of the agent is a Neural Network that takes **4 input parameters** and
 
 ```bash
 ├── assets/                 # Images and saved models
-├── Deep_SARSA_4params.py   # Main training and execution script
+├── Deep_SARSA.py   # Main training and execution script
 ├── saved_model.pth         # Pre-trained model weights (Optional)
 └── README.md               # Documentation
