@@ -37,7 +37,7 @@ The Brain of the agent is a Neural Network that takes **4 input parameters** and
 
 ```bash
 ├── images/                 # Images
-├── assets/                 # Saved models
+├── assets/                 # Graphical assets (backgrounds, etc.)
 ├── Deep_SARSA.py           # Main training and execution script
 ├── saved_model.pth         # Pre-trained model weights (Optional)
 └── README.md               # Documentation
