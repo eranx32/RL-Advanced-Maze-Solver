@@ -4,8 +4,9 @@ A **Deep Reinforcement Learning** implementation that solves a complex maze envi
 
 Unlike traditional tabular methods, this project utilizes a **Deep Neural Network (DNN)** using `PyTorch` to approximate the Q-values, allowing the agent to handle continuous state representations and generalize better across states.
 
-![Deep SARSA Demo](assets/deep_sarsa_demo.gif)
-*(Note: Visual demonstration of the trained agent)*
+<div align="center">
+  <img src="/images/preview.gif" width="300" />
+</div>
 
 ## 🚀 Key Features & Upgrades
 
