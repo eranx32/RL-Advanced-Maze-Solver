@@ -164,7 +164,7 @@ class MazeEnvironment:
         self.player.goto(-270, 265)
 
         self.key_turtle = turtle.Turtle()
-        self.key_turtle.shape("key_2.gif")
+        self.key_turtle.shape("key.gif")
         self.key_turtle.penup()
         self.key_turtle.hideturtle()
         self.key_row, self.key_col = None, None
