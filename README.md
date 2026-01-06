@@ -17,7 +17,7 @@ Unlike traditional tabular methods, this project utilizes a **Deep Neural Networ
 
 ## 🛠️ Tech Stack
 
-* **Core:** Python 3.x
+* **Core:** Python 3
 * **Deep Learning:** PyTorch (`torch`, `nn.Sequential`)
 * **Optimization:** AdamW Optimizer + MSE Loss
 * **Visualization:** Turtle Graphics
