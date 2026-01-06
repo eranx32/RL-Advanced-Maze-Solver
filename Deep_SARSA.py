@@ -150,7 +150,7 @@ class MazeEnvironment:
         self.screen = turtle.Screen()
         self.screen.register_shape("key.gif")
         self.screen.title("Maze Deep SARSA")
-        self.screen.bgpic("new.gif")
+        self.screen.bgpic("maze.gif")
         self.screen.setup(width=620, height=620)
         self.screen.tracer(0)
 
