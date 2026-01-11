@@ -33,6 +33,14 @@ The Brain of the agent is a Neural Network that takes **4 input parameters** and
     * Linear (64 neurons) + ReLU
 * **Output Layer (4 Neurons):** Q-Values for `[UP, RIGHT, DOWN, LEFT]`
 
+## ⚖️ Reward Shaping Strategy
+
+The reward function is carefully balanced to ensure the agent prefers **solving** over **giving up**:
+
+* **Living Penalty (Small Negative Reward):** We use a tiny penalty per step to encourage the **shortest path**.
+* **The "Suicidal Agent" Problem:** If the step penalty is too high, the accumulated negative reward for a long path might outweigh the final prize. This would cause the agent to "commit suicide" (end the episode early) to minimize losses.
+* **Balance:** The penalty is set low enough so that the **Expected Return** remains positive even for long routes, keeping the agent motivated to reach the exit.
+
 ## 📂 Project Structure
 
 ```bash
