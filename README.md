@@ -43,9 +43,14 @@ The reward function is carefully balanced to ensure the agent prefers **solving*
 
 ## 📂 Project Structure
 
-```bash
-├── images/                 # Images
-├── assets/                 # Graphical assets (backgrounds, etc.)
-├── Deep_SARSA.py           # Main training and execution script
-├── saved_model.pth         # Pre-trained model weights (Optional)
-└── README.md               # Documentation
+```text
+├── assets/                 # Graphics and Configuration
+│   ├── maze_data.json      # JSON file defining legal moves (the maze layout)
+│   ├── maze.gif            # Background image
+│   └── key.gif             # Target item image
+├── agent.py                # Agent logic (Epsilon-Greedy, Training steps)
+├── environment.py          # Maze logic, Turtle graphics, and Physics
+├── main.py                 # Main training loop and Dynamic Bound calculation
+├── memory.py               # Replay Memory (Experience Replay) buffer
+├── model.py                # Deep Q-Network (PyTorch Neural Network)
+└── README.md               # Project Documentation
