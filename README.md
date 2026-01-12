@@ -67,7 +67,7 @@ git clone https://github.com/eranx32/RL-Advanced-Maze-Solver.git
 ##### 2. **Install dependencies:** You will need Python installed along with the following libraries:
 ```Bash
 
-pip install torch numpy
+pip install torch numpy turtle
 ```
 
 ### ▶️ Usage
