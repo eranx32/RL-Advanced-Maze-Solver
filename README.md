@@ -54,3 +54,25 @@ The reward function is carefully balanced to ensure the agent prefers **solving*
 ├── memory.py               # Replay Memory (Experience Replay) buffer
 ├── model.py                # Deep Q-Network (PyTorch Neural Network)
 └── README.md               # Project Documentation
+```
+
+
+###  🛠️ Installation & Requirements
+#####  1. Clone the repository:
+```Bash
+
+git clone https://github.com/eranx32/RL-Advanced-Maze-Solver.git
+```
+
+##### 2. **Install dependencies:** You will need Python installed along with the following libraries:
+```Bash
+
+pip install torch numpy
+```
+
+### ▶️ Usage
+##### To start the training process, simply run the main script:
+```Bash
+
+python main.py
+```
